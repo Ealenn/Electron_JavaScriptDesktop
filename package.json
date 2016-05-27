@@ -1,0 +1,17 @@
+{
+  "name": "ealen-app",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "scripts": {
+      "start": "electron .",
+      "build": "electron-packager ./ --platform=win32 --arch=all --version=1.2.0 --overwrite"
+    },
+  "author": "ealen",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "^1.1.3",
+    "electron-rebuild": "^1.1.4"
+  }
+}
